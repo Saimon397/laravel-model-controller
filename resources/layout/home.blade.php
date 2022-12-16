@@ -20,7 +20,7 @@
     <ul>
         @foreach ($movies as $movie)
         <li>
-            {{$movie->title}}
+            {{$movie->'title'}}
         </li>
             
         @endforeach
