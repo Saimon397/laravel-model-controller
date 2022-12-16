@@ -11,6 +11,6 @@ class PageController extends Controller
     public function index()
     {
         $movies = Movie::all();
-        return view('app', compact('movies'));
+        return view('main', compact('movies'));
     }
 }

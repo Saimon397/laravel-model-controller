@@ -16,16 +16,11 @@
 </head>
 
 <body>
-
-    <ul>
-        @foreach ($movies as $movie)
-        <li>
-            {{$movie->title}}
-        </li>
-            
-        @endforeach
-    </ul>
-
+    @include('partials.header')
+    <main>
+        @yield('content')
+    </main>
+    @include('partials.footer')
 </body>
 
 </html>
