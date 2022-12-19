@@ -8,7 +8,7 @@
                 <div class="card-body">
                     <h5 class="card-title fw-bold">{{ $movie->title }}</h5>
                     <p class="card-text">titolo originale : {{ $movie->original_title }}</p>
-                    <p class="card-textr"> data di uscita: {{ $movie->date }}</p>
+                    <p class="card-text"> data di uscita: {{ $movie->date }}</p>
                     <p class="card-text"> voto: {{ $movie->vote }}</p>
                 </div>
             </div>
